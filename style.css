@@ -91,18 +91,18 @@ body{
 
 .fields button{
     display: inline-block;
-    width: 120px;
+    width: 160px;
     border: none;
     outline: none;
     background-color:rgb(231, 145, 48);
-    padding: 8px 0;
-    margin-left: 25%;
+    padding: 8px 2px;
+    margin-left: 15%;
     margin-top: 30px;
     border-radius: 25px;
     box-shadow: 3px 3px 8px #b1b1b1,
              -3px -3px 8px #ffffff;
     transition: .6s;
-    font-size: 17px;
+    font-size: 14px;
     text-transform: capitalize;
     color: white;
 }
@@ -111,7 +111,7 @@ body{
     background-color: rgb(231, 216, 48);
     transform: scale(1.1);
     color: rgb(77, 65, 51);
-    letter-spacing: 1.5px;
+    
     font-weight: 700;
    
 }
