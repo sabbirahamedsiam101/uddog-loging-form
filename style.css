@@ -37,7 +37,7 @@ body{
     justify-content: center;
     box-shadow:  
                  0px 0px 2px #5f5f5f,
-                 0px 0px  0px 5px rgb(231, 145, 48),
+                 0px 0px  0px 5px #FC6532,
                  8px 8px 15px #a7aaaf,
                 -8px -8px 15px  #ffffff;
 }
@@ -45,19 +45,11 @@ body{
     width: 80px;
     height: 80px;
 }
-.loging-div .logo p{
-    text-align: center;
-    
-}
 
-.loging-div .title h3{
+
+.loging-div .title h4{
+    text-align: center;
     margin-top: 15px;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-}
-.loging-div .title h5{
-    text-align: center;
 }
 
 .fields{
@@ -94,7 +86,7 @@ body{
     width: 160px;
     border: none;
     outline: none;
-    background-color:rgb(231, 145, 48);
+    background-color:#FC6532;
     padding: 8px 2px;
     margin-left: 15%;
     margin-top: 30px;
@@ -102,13 +94,13 @@ body{
     box-shadow: 3px 3px 8px #b1b1b1,
              -3px -3px 8px #ffffff;
     transition: .6s;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: capitalize;
     color: white;
 }
 
 .fields button:hover{
-    background-color: rgb(231, 216, 48);
+    background-color:#fa531c;
     transform: scale(1.1);
     color: rgb(77, 65, 51);
     
